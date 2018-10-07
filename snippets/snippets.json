@@ -83,6 +83,12 @@
 		"description": "output ERB tags",
 		"scope": "text.html.ruby"
 	},
+	"it": {
+		"prefix": "it",
+		"body": "<%= image_tag \"${1:source}\", alt: \"${2:alttext}\" %>",
+		"description": "insert a rails view image_tag helper",
+		"scope": "text.html.ruby"
+	},
 	"st": {
 		"prefix": "st",
 		"body": "<%= submit_tag \"${1:My Button Text}\", class: \"${2:class}\" %>",
